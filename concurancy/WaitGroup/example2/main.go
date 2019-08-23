@@ -20,6 +20,7 @@ func main() {
 		//wg.Add(1)
 		go fetch(url)
 	}
+	fmt.Println("NOT WAITING!!!")
 	wg.Wait()
 	fmt.Println("*****")
 }
