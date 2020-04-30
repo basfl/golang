@@ -1,0 +1,14 @@
+[
+	{
+		"Name": "babak",
+		"Pass": "123",
+		"Permission": null
+	},
+	{
+		"Name": "amir",
+		"Pass": "****",
+		"Permission": {
+			"write": true
+		}
+	}
+]

@@ -1,0 +1,13 @@
+version: '3'
+services:
+  loger:
+    image: loger:1.0.0
+    build: .
+    volumes: 
+        # - "myv:/data/"
+         - "./temp.txt:/data/temp.txt"
+          # - type: bind
+          #   source: /temp.txt
+          #   target: /data/temps.txt
+volumes: 
+  myv:
