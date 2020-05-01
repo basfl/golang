@@ -1,0 +1,29 @@
+[
+ {
+  "id": "1",
+  "isbn": "438227",
+  "title": "Book One",
+  "author": {
+   "firstname": "John",
+   "lastname": "Doe"
+  }
+ },
+ {
+  "id": "2",
+  "isbn": "454555",
+  "title": "Book Two",
+  "author": {
+   "firstname": "Steve",
+   "lastname": "Smith"
+  }
+ },
+ {
+  "id": "3",
+  "isbn": "40008",
+  "title": "Book Three",
+  "author": {
+   "firstname": "stephen",
+   "lastname": "king"
+  }
+ }
+]
